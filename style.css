@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Satisfy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(64deg,#f0f329 47%, #eaec6d 38%, #e9bf37);
+    text-align: center;
+    justify-content: center;
+    display: block;
+    width: 100%;
+}
+.container {
+    max-width: 900px;
+    transition: 0.5s;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:auto;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 20px;
+    margin-top:4.5rem;
+}
+p{
+    font-family:'Satisfy', cursive; 
+    font-size:20px;
+    margin-bottom: 20px;
+    }
+#txt-input{
+    height:13rem;
+    width: 15rem;
+    outline:none;
+    border: 1px solid yellow;
+    border-radius:15px;
+    position: relative;
+    top:6rem;
+    padding: 10px;
+    margin:10px 20px;
+    background:transparent;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    font-family:'Dancing Script', cursive ;
+    font-size:1.4em;
+   
+}
+
+::placeholder{
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    overflow: hidden;
+    font-family:'Satisfy', cursive;
+    font-size:12px;
+ 
+
+}
+#btn-translate{
+    padding:10px;
+    border:1px solid yellow;
+    color:rgba(5, 58, 202, 0.993);
+    border-radius: 15px; 
+    outline:none;
+    font-size:20px;
+    font-family:'Dancing Script', cursive; ;
+    
+}
+#btn-translate:hover{
+    cursor: pointer;
+    background-color: blue;
+    color:white;
+}
+#output{
+    height:13rem;
+    width: 15rem;
+    outline:none;
+    border: 1px solid yellow;
+    border-radius:15px;
+    position: relative;
+    top:6rem;
+    padding: 10px;
+    margin:10px 20px;
+    background:transparent;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    font-family:'Dancing Script', cursive ;
+    font-size:20px;
+   
+}
+
+@media all and (max-width:1440px){
+    #txt-input{
+        height:12rem;
+        width: 16rem;  
+    }
+    #output{
+        height: 12rem;
+        width: 16rem;
+    }
+}
+@media all and (max-width:575px){
+    #txt-input{
+        height:8rem;
+        width: 14rem; 
+        position:absolute;
+        top:16rem;
+        right:10rem; 
+    }
+    #output{
+        height: 8rem;
+        width: 14rem;
+        position: absolute;
+        top:27rem;
+        right:10rem;
+    }
+    /* .container {
+        max-width: 0px;
+        padding-left:0px;
+        padding-right: 0px;
+    } */
+    h2{
+        margin-top: 0rem !important;
+    }
+
+}
+@media all and (max-width:480px){
+
+}
