@@ -91,41 +91,52 @@ p{
    
 }
 
-@media all and (max-width:1440px){
+@media only screen and (max-width: 425px) {
+    .container h2{
+        margin-top: 0px;
+    }
     #txt-input{
-        height:12rem;
-        width: 16rem;  
+        top: 0;
     }
     #output{
-        height: 12rem;
-        width: 16rem;
+        top: 55;
     }
-}
-@media all and (max-width:575px){
-    #txt-input{
-        height:8rem;
-        width: 14rem; 
-        position:absolute;
-        top:16rem;
-        right:10rem; 
-    }
-    #output{
-        height: 8rem;
-        width: 14rem;
+    #btn-translate{
         position: absolute;
-        top:27rem;
-        right:10rem;
+        top: 484px;
+     left: 157px;
     }
-    /* .container {
-        max-width: 0px;
-        padding-left:0px;
-        padding-right: 0px;
-    } */
-    h2{
-        margin-top: 0rem !important;
+ }
+ @media only screen and (max-width: 375px) {
+    .container h2{
+        margin-top: 0px;
     }
+    #txt-input{
+        top: 0;
+    }
+    #output{
+        top: 55;
+    }
+    #btn-translate{
+         position: absolute;
+         top: 523px;
+         left: 143px;
+    }
+ }
+ @media only screen and (max-width: 320px) {
+    .container h2{
+        margin-top: 0px;
+    }
+    #txt-input{
+        top: 0;
+    }
+    #output{
+        top: 55;
+    }
+    #btn-translate{
+         position: absolute;
+         top: 527px;
+         left: 107px;
+    }
+ }
 
-}
-@media all and (max-width:480px){
-
-}
