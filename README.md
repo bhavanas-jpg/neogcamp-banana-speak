@@ -1,4 +1,4 @@
-# neogcamp-banana-speak
+# Banana Speak
 
  This is a translation app to convert english to banana language. Minions speak in banana language in Animated movie Despicable me. 
  * Made using fun traslations API
